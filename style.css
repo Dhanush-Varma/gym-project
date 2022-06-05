@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Koulen&family=Montserrat:wght@300&family=Oleo+Script:wght@700&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Koulen&family=Montserrat:wght@300&family=Oleo+Script:wght@700&family=Paytone+One&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Koulen&family=Montserrat:wght@300&family=Oleo+Script:wght@700&family=Pacifico&family=Paytone+One&family=Righteous&family=Russo+One&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    background: opacity 0;
+    height: 71vh;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.506);
+}
+
+.logo {
+    width: 25%;
+
+}
+
+.logo img {
+    width: 24%;
+    cursor: pointer;
+    margin: 15px 20px 0px 20px;
+}
+
+.mid {
+    width: 47%;
+    padding: 10px 85px;
+    margin-top: 8px;
+    padding-left: 45px;
+    margin-left: 5px;
+}
+
+ul,
+li {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    font-weight:bold;
+    color: #ffff;
+    display: flex;
+    font-size: large;
+    transition: .5;
+}
+
+a {
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding-bottom: 7px;
+}
+
+.mid a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: #002ffe;
+    transition: width .4s ease 0s, left 0.4s ease 0s;
+    width: 0;
+
+}
+
+a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+li:hover {
+    color: #002ffe;
+    ;
+}
+
+.right {
+    width: 28%;
+    justify-items: right;
+    padding: 12px 25px;
+    margin-top: 8px;
+}
+
+.btn {
+    font-size: 15px;
+    padding: 6px 38px;
+    margin: 0px 10px;
+    border-radius: 8px;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+.btn:hover {
+    background: rgb(255, 255, 255);
+    color: blue;
+}
+.contactform h1 {
+    font-weight: bolder;
+    text-shadow: 0px 2px 0px black;
+    color: blue;
+}
+
+.contactform {
+    font-family: 'Koulen', cursive;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: transparent;
+    width: auto;
+    padding: 25px 10px 25px 25px;
+}
+
+.contactform span {
+    color: red;
+}
+
+.form-control {
+    width: 87%;
+    margin: 8px 0px 0px 0px;
+}
+
+.form-text {
+    font-size: 10px;
+    font-weight: 700;
+    color: red;
+}
+
+input {
+    background: transparent;
+
+}
+
+.mb-3 {
+    font-weight: 600;
+    margin: 17px;
+}
+
+.modal-content {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.752);
+}
+
+.hi {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.531);
+    border-radius: 20px;
+    margin: 70px;
+    padding-top: 1px;
+    margin-left: 95px;
+}
+
+.one {
+    margin: 40px 0px 40px 70px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Koulen', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+    font-weight: bolder;
+    text-shadow: 0px 2px 0px black;
+}
+.one {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.two {
+    margin-left: 40px;
+    width: 75%;
+    background: url("stroke.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 45px 0px;
+}
+
+.two h1 {
+    font-family: 'Paytone One', sans-serif;
+    padding-left: 110px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.three {
+    width: 5%;
+    height: 15%;
+    margin: 0px 50px;
+    background-size: cover;
+    padding: 68px 70px;
+}
+.three img{
+ width: 140px;
+ align-items: center;
+}
+.enroll{
+    transition: .5s;
+}
+.enroll:hover{
+    transform: scale(0.9);
+}
+
+.as {
+    height: 300px;
+    background-color:rgba(185, 168, 168, 0.27);
+    margin: 0px 5px 10px 5px;
+    /* margin: 52px 5px 10px 5px; */
+    border: 2px solid;
+    border-radius: 20px;
+}
+.heading{
+font-family: 'Righteous', cursive;
+font-size: 30px;
+color: blue;
+text-shadow: 0px 2px 0px black;
+}
+.h2{
+    margin-left: 40%;
+}
+.heading div{
+    margin-left: 37%
+}
+.image{
+    margin-left: 40px;
+    display: flex;
+}
+.as img{
+    margin: 30px 65px;
+}
+.image div{
+    text-align: center;
+    font-weight: 700;
+    color: rgba(73, 69, 69, 0.975);
+}
